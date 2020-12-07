@@ -16,9 +16,8 @@ function conversionFrancsEuros(montantF)
     
 }
 
+// appel des fonctions
 var resultatF=conversionEurosFrancs(montantE);
 var resultatE=conversionFrancsEuros(montantF);
-
-// appel des fonctions
 document.write(montantE+" euros = "+resultatF.toFixed(2)+" francs<br/>");
 document.write(montantF+" francs = "+resultatE.toFixed(2)+" euros");
